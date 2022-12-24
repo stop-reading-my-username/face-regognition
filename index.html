@@ -1,0 +1,41 @@
+<html>
+</html>
+<head>
+    <title>My Selfie App</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+<link href="style.css" rel="stylesheet">
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+</head>
+<body>
+    <center>
+        <h1 class="btn btn-default" style="text-transform:uppercase"> Image recognition</h1>
+        <h2> Model is trained to identify the following objects</h2>
+        <br>
+        <h3> Father</h3>
+        <hr>
+        <h3> Brother</h3>
+        <hr>
+        <h3> Mother</h3>
+        <hr>
+        <h3> Litte Brother</h3>
+        <hr>
+        <h2>Webcam view</h2>
+        <div id="camera"></div>
+        <h2> capture view</h3>
+        <div id="result"></div>
+        <br>
+        <button onclick="capture()">capture image</button>
+        <br>
+        <br>
+        <button onclick="check()">identify image</button>
+        <h3> object:<span id="object">   </span></h3>
+        <h3> accuracy:<span id="accuracy">   </span></h3>
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>

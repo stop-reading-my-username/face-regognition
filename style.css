@@ -1,0 +1,26 @@
+h1{
+    font-size: 35px !important;
+}
+h2{
+    color: aliceblue;
+}
+body{
+    background-color: rgb(0, 255, 51);
+}
+h3{
+    color: rgb(254, 0, 0);
+}
+#camera{
+    border: 2px rgb(69, 65, 65) dashed;
+    width: 300px;
+    height: 250px;
+}
+#result{
+    border: 2px rgb(99, 94, 94) solid;
+    width: 300px;
+    height: 250px;
+}
+button{
+color: rgb(212, 184, 212);
+height: 30px;
+}
